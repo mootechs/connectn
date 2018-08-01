@@ -17,4 +17,4 @@ ai.o: ai.c ai.h
 	gcc -g -Wall -Werror -c -o ai.o ai.c
 
 clean:
-	rm -f *.o 
+	rm -f *.o *.out
